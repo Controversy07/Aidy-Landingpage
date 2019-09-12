@@ -1,0 +1,258 @@
+body
+{
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.bg_wrap
+{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+  transition: opacity .3s ease-out;
+  opacity: 0.8;
+}
+
+
+.header
+{
+  padding: 36px 65px 0px 64px;
+}
+
+.logo
+{
+  display: inline-block;
+  position: relative;
+  width: auto;
+  height: 42px;
+}
+
+.social_links
+{
+    float:right;
+}
+
+.social_links span
+{
+  cursor:pointer;
+  width:24px;
+  height:24px;
+  display: inline-block;
+  background-position: center;
+  opacity: 0.7;
+  background-size: 18px;
+}
+
+.fb_logo
+{
+  background: url(images/facebook_icon.png) no-repeat transparent;
+  background-size: auto 18px !important;
+}
+
+.twitter_logo
+{
+  background: url(images/twitter_icon.png) no-repeat transparent;
+}
+
+.insta_logo
+{
+  background: url(images/instagram_icon.png) no-repeat transparent;
+}
+
+.dribble_logo
+{
+  background: url(images/dribbble_icon.png) no-repeat transparent;
+}
+
+.rss_logo
+{
+  background: url(images/rss_icon.png) no-repeat transparent;
+}
+
+.youtube_logo
+{
+  background: url(images/youtube_icon.png) no-repeat transparent;
+}
+
+.pintrest_logo
+{
+  background: url(images/pintrest_icon.png) no-repeat transparent;
+}
+
+.linkedin_logo
+{
+  background: url(images/linkedin_icon.png) no-repeat transparent;
+}
+
+.vimeo_logo
+{
+  background: url(images/vimeo_icon.png) no-repeat transparent;
+}
+
+.email_logo
+{
+  background: url(images/email_icon.png) no-repeat transparent;
+}
+
+.container
+{
+  margin:90px 40px 0px 90px;
+  position:relative;
+}
+
+.aidy_analytics
+{
+  top:0px;
+  position: absolute;
+  z-index: -1;
+  background: url(images/ai_data_img.png) no-repeat transparent;
+  right:0px;
+  height:100%;
+  width: 100%;
+  background-size: 700px auto;
+  background-position: right;
+}
+
+
+
+@font-face
+{
+    font-family: 'popinsbold';
+    font-style: bold;
+    font-weight: 600;
+    src:url('fonts/Poppins-Bold.otf');
+}
+
+@font-face
+{
+    font-family: 'popinssemibold';
+    font-style: bold;
+    font-weight: 600;
+    src:url('fonts/Poppins-SemiBold.otf');
+}
+
+@font-face
+{
+    font-family: 'popinmedium';
+    font-style: bold;
+    font-weight: 600;
+    src:url('fonts/Poppins-Medium.otf');
+}
+
+@font-face
+{
+    font-family: 'popinsregular';
+    font-style: bold;
+    font-weight: 600;
+    src:url('fonts/Poppins-Regular.otf');
+}
+
+@font-face
+{
+    font-family: 'popinxtralight';
+    font-style: bold;
+    font-weight: 600;
+    src:url('fonts/Poppins-ExtraLight.otf');
+}
+
+
+.information_space
+{
+}
+
+.information_space div
+{
+  margin-top:33px;
+}
+
+.information_space div:nth-child(1)
+{
+  margin-top:0px;
+}
+
+.text_headding
+{
+  font-family: 'popinssemibold';
+  color:#122532;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.krunchy
+{
+  font-family: 'popinsbold';
+  color: #ffa703;
+  font-size: 50px;
+}
+
+.text_subhead
+{
+  font-family: 'popinmedium';
+  color:#122532;
+  font-size: 27px;
+}
+
+.text_question
+{
+  font-family: 'popinxtralight';
+  color:#122532;
+  font-size: 25px;
+}
+
+.actn_btn
+{
+  font-family: 'popinssemibold';
+  color: #FFFFFF;
+  background: linear-gradient(100deg, #ffaa03, #f47019);
+  width: fit-content;
+  padding: 19px 37px;
+  border-radius: 40px;
+  font-size: 19px;
+  letter-spacing: 0.9px;
+  cursor:pointer;
+}
+
+.note
+{
+  font-family: 'popinsregular';
+  color:#122532;
+  font-size: 17px;
+}
+
+
+@media only screen and (max-width : 420px)
+{
+  .social_links
+  {
+    display: none;
+  }
+  .actn_btn
+  {
+    padding: 15px 22px;
+  }
+
+  .header
+  {
+    padding: 36px 65px 0px 40px;
+  }
+
+  .container
+  {
+    margin:40px 40px 40px 40px;
+  }
+
+  .aidy_analytics
+  {
+    display:none;
+  }
+}
